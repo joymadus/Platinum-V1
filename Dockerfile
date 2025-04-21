@@ -1,6 +1,6 @@
 FROM node:20
 
-RUN git clone https://github.com/Jupiterbold05/Platinum-V1.git /root/JUPITERBOLD05
+RUN git clone https://github.com/joymadus/Platinum-V1.git /root/JUPITERBOLD05
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
